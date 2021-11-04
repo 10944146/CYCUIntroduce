@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
     div.menudiv{
         position:relative;
     } 
@@ -102,7 +107,8 @@
     .title{
         position: fixed;
         z-index: 2000;
-        top: -1%;
+        top: 2%;
+        left: 0%;
         color: white;
         font-size: 20px;
         cursor:default;
