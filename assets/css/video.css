@@ -94,16 +94,6 @@
     h2.statement{
         font-size: 20px;
     }
-    div.footerdiv{
-        color: rgb(250, 223, 149);
-        padding: 33px;
-        z-index: 20;
-        background-color: #1d3e13 ;
-    }
-    p.footer1{
-        font-size: 13px;
-        text-align: center;
-    }
     .title{
         position: fixed;
         z-index: 2000;
@@ -118,4 +108,9 @@
         justify-content: center;
         align-items: center;
     }
-
+    h2.statement{
+        font-size: 0px;
+    }
+    .statement:hover{
+        font-size: 30px;
+    }

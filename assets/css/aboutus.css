@@ -125,10 +125,6 @@ p{
     padding: 0px 10px 0px 10px;
     box-shadow:3px 3px 12px rgba(28, 28, 28, 0.646);padding:5px;
 }
-}
-img{
-    box-shadow:3px 3px 12px gray;padding:5px;
-}
 .about{
     width: 800px;
     margin: 50px auto;
@@ -142,6 +138,7 @@ img{
 .image a img{
     display: block;
     width:100%;
+    box-shadow:3px 3px 12px rgba(0, 0, 0, 0.685);padding:5px;
 }
 .imager{
     width: 300px;
@@ -151,6 +148,7 @@ img{
 .imager a img{
     display: block;
     width:100%;
+    box-shadow:3px 3px 12px rgba(0, 0, 0, 0.685);padding:5px;
 }
 .text{
     float: right;  /* 文字在右邊 */

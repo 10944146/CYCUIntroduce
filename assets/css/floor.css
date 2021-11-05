@@ -1,11 +1,22 @@
 *{
-    margin: 0;
-    padding: 0;
+    
     list-style: none;
 }
-    body{
+html, body{
+    height: 100%;margin: 0;
+    padding: 0;
+    background-color: #829d70;
+}
+
+section{
+    min-height: calc(100%-100px);
+}
+
+    /*body{
         background-color: #829d70;
-    }
+        html:100%;
+        body:100%;
+    }*/
     div.menudiv{
         position:relative;
     } 
@@ -79,7 +90,7 @@
     .title{
         position: fixed;
         z-index: 2000;
-        top: 2%;
+        top: 0%;
         left: 0%;
         color: white;
         font-size: 20px;
@@ -219,13 +230,11 @@
     .aim-text{
         margin: 0px 15px 0px 15px;
     }
-    div.footerdiv{
-        color: rgb(250, 223, 149);
-        padding: 33px;
-        z-index: 20;
-        background-color: #1d3e13 ;
+    .p1{
+        text-align: left;
+        font-size: 12px;
     }
-    p.footer1{
-        font-size: 13px;
-        text-align: center;
+    .p2{
+        text-align: right;
+        font-size: 12px;
     }
